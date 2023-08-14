@@ -265,7 +265,7 @@ body {
   padding-bottom: 120px;
 }
 .portfolio-item {
-  flex-basis: calc((100% - 96px) / 3);
+  /*flex-basis: calc((100% - 96px) / 3);*/
 }
 .portfolio-img {
   display: flex;
