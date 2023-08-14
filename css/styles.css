@@ -44,6 +44,7 @@ body {
 }
 .logo {
   margin-right: 76px;
+  margin-left: 156px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -80,6 +81,15 @@ body {
 .menu-item:focus {
   color: var(--ocean);
 }
+.contact-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 24px 0px;
+  margin-left: auto;
+}
+.contact-list li:not(:last-child) {
+  margin-right: 40px;
+}
 
 .contact {
   display: flex;
@@ -113,14 +123,20 @@ body {
   letter-spacing: 1.12px;
 }
 .header-background {
-  display: block;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   background: var(--navyblue);
   width: 1440px;
   height: 600px;
 }
 .front-button {
-  display: block;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -142,13 +158,13 @@ body {
 
 .ideas {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 24px;
-  max-width: 1128px;
   flex-shrink: 0;
   padding: 120px 0;
 }
 .advantages {
+  display: block;
   width: 264px;
   font-size: 20px;
   font-weight: 500;
@@ -157,6 +173,7 @@ body {
   padding-bottom: 8px;
 }
 .discription {
+  display: block;
   width: 264px;
   color: var(--slate);
   font-size: 16px;
