@@ -269,13 +269,16 @@ body {
 }
 .portfolio-item {
   position: relative;
+  width: 360px;
+  height: 420px;
 }
 .figcap-content {
-  gap: 8px;
-  padding: 32px 16px;
+  gap: 32px;
+  padding: 32px;
 }
 .figcap-border {
-  outline: 1px solid var(--cornflower);
+  border: 1px solid var(--cornflower);
+  border-top: 0;
   background: var(--background);
 }
 .portfolio-img-title {
