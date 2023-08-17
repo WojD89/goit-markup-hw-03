@@ -53,6 +53,7 @@ body {
   align-items: center;
   flex-shrink: 0;
   width: 115px;
+  margin-right: 20px;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -267,14 +268,9 @@ body {
   grid-gap: 48px 24px;
   padding-bottom: 120px;
 }
-.portfolio-item {
-  position: relative;
-  width: 360px;
-  height: 420px;
-}
+
 .figcap-content {
-  gap: 32px;
-  padding: 32px;
+  padding: 32px 16px;
 }
 .figcap-border {
   border: 1px solid var(--cornflower);
@@ -282,16 +278,20 @@ body {
   background: var(--background);
 }
 .portfolio-img-title {
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  width: fit-content;
+  padding-bottom: 7px;
 }
 .portfolio-img-subtitle {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  width: fit-content;
 }
 
 /* Footer */
